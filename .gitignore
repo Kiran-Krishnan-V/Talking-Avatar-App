@@ -1,0 +1,32 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django specific
+db.sqlite3        # your local database file
+*.log             # log files
+
+# Environment / secrets
+.env              # environment variables (like SECRET_KEY, DB credentials)
+*.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# Static and media (if generated locally, not user uploads)
+staticfiles/
+media/
+
+# Migrations cache (keep actual migration files but ignore pycache)
+*/migrations/__pycache__/
+
+ditto-talkinghead-windows/*
